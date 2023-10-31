@@ -45,7 +45,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Decode Morse Code]**
+- **[module MyEnumerable with functionalities]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -97,7 +97,7 @@ LinkedIn: [@siddhartha-ghosh-65902718](https://www.linkedin.com/in/siddhartha-gh
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Decode codes]**
+- [ ] **[Add other Enumerable methods]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
