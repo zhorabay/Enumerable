@@ -3,8 +3,8 @@ require_relative './MyEnumerable'
 class MyList
   include MyEnumerable
 
-  def initialize
-    @list = []
+  def initialize(*elements)
+    @list = elements
   end
 
   def each(&block)
@@ -23,4 +23,4 @@ puts list.any? { |e| e == 2 }
 puts list.any? { |e| e == 5 }
 
 # Test #filter
-puts list.filter { |e| e.even? }
+puts list.filter(&:even?)
